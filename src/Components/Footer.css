@@ -1,0 +1,20 @@
+.footer {
+  padding: 10px;
+  display: flex;
+  background-color: #46743730;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.phrase {
+  margin: auto auto auto 0;
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.attribute {
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 600;
+}

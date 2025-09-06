@@ -1,0 +1,54 @@
+.menu {
+  position: relative;
+  align-items: center;
+}
+
+.system {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.central {
+  width: 160px;
+  height: 160px;
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.orbiting {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.orbiting.one {
+  transform: rotate(250deg) translate(180px) rotate(-250deg);
+}
+
+.orbiting.two {
+  transform: rotate(200deg) translate(250px) rotate(-200deg);
+}
+.orbiting.three {
+  transform: rotate(160deg) translate(250px) rotate(-160deg);
+}
+.orbiting.four {
+  transform: rotate(110deg) translate(180px) rotate(-110deg);
+}
+.orbiting.five {
+  transform: rotate(30deg) translate(170px) rotate(-30deg);
+}
+
+.orbiting.six {
+  transform: rotate(330deg) translate(180px) rotate(-330deg);
+}
