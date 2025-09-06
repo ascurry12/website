@@ -21,6 +21,7 @@
 }
 
 .orbiting {
+  opacity: 0;
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -48,7 +49,21 @@
 .orbiting.five {
   transform: rotate(30deg) translate(170px) rotate(-30deg);
 }
-
 .orbiting.six {
   transform: rotate(330deg) translate(180px) rotate(-330deg);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .orbiting {
+    animation: 1s fade-in 2s linear forwards;
+  }
 }
