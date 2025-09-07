@@ -47,5 +47,10 @@ hr {
     margin-top: auto;
     padding: 0;
   }
+
+  .nav-join:hover {
+    background-color: #00000008;
+    border-radius: 10px;
+  }
   
   
