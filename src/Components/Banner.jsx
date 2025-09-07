@@ -8,7 +8,7 @@ const Banner = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setGreetingIndex((prevIndex) => (prevIndex + 1) % greetings.length);
-          }, 2000);
+          }, 6000);
 
           return () => clearInterval(interval); 
 

@@ -64,6 +64,6 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .orbiting {
-    animation: 1s fade-in 2s linear forwards;
+    animation: 0.5s fade-in 2s linear forwards;
   }
 }
