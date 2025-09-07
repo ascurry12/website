@@ -8,9 +8,9 @@ const OptionMenu = () => {
   var options = [
     "About Me",
     "Projects",
+    "Artwork",
     "GitHub",
     "LinkedIn",
-    "Artwork",
     "The Sims Radio",
   ];
   var icons = {
@@ -53,7 +53,7 @@ const OptionMenu = () => {
         />
         {options.map((option, index) => (
           <div key={index} className={`orbiting ${nums[index]}`}>
-            <Link to={links[option]} target={(option == "LinkedIn" || option == "GitHub") ? "_blank" : null}><Option key={index} label={option} icon={icons[option]} /></Link>
+            <Link to={links[option]} target={(option == "LinkedIn" || option == "GitHub" || option == "The Sims Radio") ? "_blank" : null}><Option key={index} label={option} icon={icons[option]} /></Link>
           </div>
         ))}
       </div>

@@ -1,0 +1,51 @@
+hr {
+    border: 1px solid black;
+  }
+  
+  h2 {
+    margin: auto 0 auto 0;
+    text-align: left;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  .banner-top {
+    display: flex;
+    width: 1000px;
+  }
+  
+  .title {
+    width: 220px;
+    text-align: left;
+    margin-bottom: auto;
+    font-weight: 600;
+  }
+  .icon {
+    width: 90px;
+    margin-left: auto;
+  }
+
+  .nav {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nav-join {
+    margin-top: auto;
+    padding: 0 15px 0 15px;
+  }
+  .nav-option {
+    font-size: 16px;
+    color: #1D50AB;
+    margin: 0 auto;
+  }
+
+  .nav-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: auto;
+    padding: 0;
+  }
+  
+  
