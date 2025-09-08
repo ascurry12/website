@@ -41,7 +41,7 @@ const OptionMenu = () => {
   };
 
   const { rive, RiveComponent } = useRive({
-    src: "/src/assets/splashscreentransparent.riv",
+    src: "/Users/aniyahc/Desktop/website/src/assets/splashscreen.riv",
     autoplay: true,
   });
   return (
