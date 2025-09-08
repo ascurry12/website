@@ -4,11 +4,11 @@ import "./About.css";
 const About = () => {
   var traits = ["Adventurous", "Foodie", "Creative", "Dog Lover", "Ambitious"];
   var traitIcons = {
-    Adventurous: "src/assets/Computer3.png",
-    Foodie: "src/assets/Computer3.png",
-    Creative: "src/assets/Computer3.png",
-    "Dog Lover": "src/assets/Computer3.png",
-    Ambitious: "src/assets/Computer3.png",
+    Adventurous: "/src/assets/Computer3.png",
+    Foodie: "/src/assets/Computer3.png",
+    Creative: "/src/assets/Computer3.png",
+    "Dog Lover": "/src/assets/Computer3.png",
+    Ambitious: "/src/assets/Computer3.png",
   };
   var skills = [
     "React",
@@ -38,7 +38,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img src="src/assets/me.jpg" className="profile-pic"></img>
+          <img src="/src/assets/me.jpg" className="profile-pic"></img>
         </div>
       </div>
       <div className="about-foot">
