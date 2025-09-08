@@ -18,7 +18,7 @@ const Banner = () => {
     <div>
       <div className="banner-top">
         <h1 className="greeting">{greetings[greetingIndex]}</h1>
-        <img className="icon" src="/src/assets/plumbob.svg"></img>
+        <img className="icon" src="../../src/assets/plumbob.svg"></img>
       </div>
       <hr></hr>
       <h2>
