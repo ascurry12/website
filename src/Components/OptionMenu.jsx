@@ -14,12 +14,12 @@ const OptionMenu = () => {
     "The Sims Radio",
   ];
   var icons = {
-    "About Me": "../../src/assets/Conversation.png",
-    Projects: "../../src/assets/Scrapbook.png",
-    Artwork: "../../src/assets/Palette.png",
-    GitHub: "../../src/assets/ComputerKey.png",
-    LinkedIn: "../../src/assets/Briefcase2.png",
-    "The Sims Radio": "../../src/assets/MusicNotes.png",
+    "About Me": "/assets/Conversation.png",
+    Projects: "/assets/Scrapbook.png",
+    Artwork: "/assets/Palette.png",
+    GitHub: "/assets/ComputerKey.png",
+    LinkedIn: "/assets/Briefcase2.png",
+    "The Sims Radio": "/assets/MusicNotes.png",
   };
 
   var links = {
@@ -41,7 +41,7 @@ const OptionMenu = () => {
   };
 
   const { rive, RiveComponent } = useRive({
-    src: "../../src/assets/splashscreentransparent.riv",
+    src: "/assets/splashscreentransparent.riv",
     autoplay: true,
   });
   return (

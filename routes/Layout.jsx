@@ -15,13 +15,13 @@ const Layout = (props) => {
     "The Sims Radio",
   ];
   var icons = {
-    Home: "../../src/assets/House.png",
-    "About Me": "../../src/assets/Conversation.png",
-    Projects: "../../src/assets/Scrapbook.png",
-    Artwork: "../../src/assets/Palette.png",
-    GitHub: "../../src/assets/ComputerKey.png",
-    LinkedIn: "../../src/assets/Briefcase2.png",
-    "The Sims Radio": "../../src/assets/MusicNotes.png",
+    Home: "/assets/House.png",
+    "About Me": "/assets/Conversation.png",
+    Projects: "/assets/Scrapbook.png",
+    Artwork: "/assets/Palette.png",
+    GitHub: "/assets/ComputerKey.png",
+    LinkedIn: "/assets/Briefcase2.png",
+    "The Sims Radio": "/assets/MusicNotes.png",
   };
 
   var links = {
@@ -63,7 +63,7 @@ const Layout = (props) => {
             )
           )}
         </div>
-        <img className="icon" src="../../src/assets/plumbob.svg"></img>
+        <img className="icon" src="/assets/plumbob.svg"></img>
       </div>
       <hr></hr>
       <Outlet />
