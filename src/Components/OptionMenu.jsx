@@ -28,7 +28,7 @@ const OptionMenu = () => {
     Artwork: "/artwork",
     GitHub: "https://github.com/ascurry12",
     LinkedIn: "https://www.linkedin.com/in/aniyahc/",
-    "The Sims Radio": "https://youtube.com/watch?list=PL7Q7YPyf6kMNRyx2HfvPT1k-dBXhIdnou&si=9egtZ67uawZkBRt1&shuffle=1",
+    "The Sims Radio": "https://music.youtube.com/watch?list=PL7Q7YPyf6kMNRyx2HfvPT1k-dBXhIdnou&shuffle=1",
   };
 
   var nums = {
